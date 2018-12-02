@@ -37,3 +37,21 @@ list item using a list. Here is an example:
     print(counter_list)
     # Output: [(1, 'apple'), (2, 'banana'), (3, 'grapes'), (4, 'pear')]
 
+Enumerate will also work with strings so that you can go char by char with an index counter, consider:
+
+.. code:: python
+  s = "Hello World"
+  for index,char in enumerate(s):
+    print("%d: %s" % (index,char))
+  # Output: 
+  # 0: H
+  # 1: e
+  # 2: l
+  # 3: l
+  # 4: o
+  # 5:
+  # 6: W
+  # 7: o
+  # 8: r
+  # 9: l
+  # 10: d
